@@ -1,0 +1,2 @@
+Camera input from browser
+https://www.freecodecamp.org/news/how-to-use-input-element-to-access-camera-on-mobile/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>cb1</title>
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-body" style="box-shadow: 0px .1px 4px;">
+        <div class="container-fluid"><a class="navbar-brand" href="">carltonduke.com</a>
+        </div>
+    </nav>
+    <div class="card" style="margin: 0;margin-top: 20px;margin-right: 20px;margin-left: 20px;background: var(--bs-green);">
+        <div class="card-body">
+            <h4 class="card-title">Image</h4>
+            <form action="", method="post">
+                <input type="file" accept="image/*" capture="user" id="img">
+            </form>
+        </div>
+    </div>
+    <div class="card" style="margin-top: 10px;margin-right: 20px;margin-left: 20px;color: var(--bs-link-color);background: var(--bs-blue);">
+        <div class="card-body" style="margin-top: 10px;color: var(--bs-primary-text-emphasis);background: var(--bs-link-color);">
+            <h4 class="card-title" style="color: var(--bs-body-bg);">Color Info</h4>
+            <div>{{ img_show }}</div>
+        </div>
+    </div>
+    <script src="static/bootstrap.min.js"></script>
+</body>
+
+</html>
